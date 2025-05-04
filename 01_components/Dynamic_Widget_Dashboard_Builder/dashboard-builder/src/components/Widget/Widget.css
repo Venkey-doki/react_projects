@@ -1,0 +1,66 @@
+.widget-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--widget-bg);
+    border: 1px solid var(--widget-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--widget-shadow);
+    padding: 10px;
+    margin: 10px;
+}
+
+.widget-header {
+    display: flex;
+    justify-content: flex-start; /* align contents to the left horizontally */
+    align-items: center;         /* align contents vertically */
+    width: 100%;                 /* ensure it spans full width */
+    padding: 8px 10px;           /* consistent top/bottom and side spacing */
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--widget-border); /* bottom border for separation */
+}
+
+.widget-header .header-content {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.widget-header .widget-toggle{
+    margin-left: auto; /* push the toggle to the right */
+    background-color: transparent; /* transparent background */
+    border: none; /* no border */
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.widget-header .widget-toggle:hover {
+    background-color: #d6dde6c4;
+    padding: 4px;
+    border-radius: 4px; /* rounded corners on hover */
+    transition: background-color 0.3s ease; /* smooth transition */
+}
+
+.widget-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.widget-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}

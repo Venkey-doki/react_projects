@@ -35,11 +35,11 @@ To run any project locally:
 git clone https://github.com/Venkey-doki/react_projects.git
 cd react_projects
 cd [project_directory]
-npm install
-npm start
+npm init
 ```
 
 > Most projects run at `http://localhost:3000/` by default.
+> if your using Vite then they run on `http://localhost:5173/` by default.
 
 ## 🛠️ Tech Stack
 
@@ -85,4 +85,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Happy Hacking! 🚀✨
+Happy learning! 🚀✨
